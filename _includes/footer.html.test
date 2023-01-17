@@ -1,0 +1,37 @@
+<footer>
+  <div class="footer-dark">
+    <div class="container">
+      <div class="d-flex flex-row">
+        <div class="footer-vertical-center">
+          <div class="footer-logos">
+            <div class="footer-logo">
+              <img src="/assets/logos/DOE_RGB_Color-Seal_Green-Mark_SC_Horizontal.png" alt="NSF logo">
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-text p-2 ml-auto flex-grow-1 footer-vertical-center">
+          The WATCHEP program is sponsored by the Department of Energy, Office of Science,
+	  Office of High-Energy Physics under Award Number DE-SC-0023527.
+        </div>
+        <div class="footer-vertical-center">
+          <div class="footer-buttons">
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="https://twitter.com/iris_hep"><i class="fab fa-twitter"></i></a>
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="https://www.youtube.com/channel/UC8Dmx4MYjp6RQ9ngc58Ujmg?view_as=subscriber"> <i class="fab fa-youtube"></i></a>
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="https://github.com/iris-hep/"> <span class="fab fa-github"></span></a>
+            </button>
+            <button type="button" class="btn btn-outline-secondary btn-sm">
+              <a href="https://groups.google.com/a/iris-hep.org/forum/#!forum/announcements"> <span class="fab fa-google"></span></a>
+            </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
