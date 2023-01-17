@@ -21,7 +21,7 @@ Science interests cover the HEP energy, cosmic, and intensity frontiers.
 * University of California, Santa Cruz
 * University of Washington
 * Brookhaven National Laboratory
-* Fermi National Acclerator Laboratory
+* Fermi National Accelerator Laboratory
 * Lawrence Berkeley National Laboratory
 
 [jekyll-organization]: https://github.com/watchep
