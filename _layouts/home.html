@@ -1,0 +1,51 @@
+---
+layout: default
+---
+
+<div class="home">
+  {%- if page.title -%}
+    <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%}
+
+  {{ content }}
+
+    <h1>A New Program to Advance Fundamental Science</h1>
+  <p>
+    WATCHEP is a training program with the goal of developing a workforce of experts in computational high-energy physics.
+    These experts are needed to help make the most of the complex experimental projects and high-volume datasets.
+    They will be the "computing ambassadors" to the high-energy physics community.
+  </p>
+  <p>
+    Graduate student trainees from the partner universities will complete a tailored instructional curriculum and a supervised research project in a relevant topical area.
+    Trainees are provided financial support during their training period in the program.
+    We expect this program will contribute to the DOE workforce in high-energy physics on the various scientific frontiers.
+  </p>
+  <p>
+    <img width="49%" src="assets/images/ATLAS_HLLHC_mu200_VP1_88vertices.jpg">
+    <img width="49%" src="assets/images/Star_trails_Mayall.jpg">
+
+    <br />Image credits: ATLAS collaboration, P. Marenfeld and NOAO/AURA/NSF
+  </p>
+  
+  {%- if site.posts.size > 0 -%}
+    <h2 class="post-list-heading">{{ page.list_title | default: "News and Posts" }}</h2>
+    <ul class="post-list">
+      {%- for post in site.posts -%}
+      <li>
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        <span class="post-meta">{{ post.date | date: date_format }}</span>
+        <h3>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h3>
+        {%- if site.show_excerpts -%}
+          {{ post.excerpt }}
+        {%- endif -%}
+      </li>
+      {%- endfor -%}
+    </ul>
+
+  {%- endif -%}
+
+</div>
