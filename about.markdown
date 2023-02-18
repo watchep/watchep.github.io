@@ -10,6 +10,7 @@ The training program includes a tailored graduate-level curriculum and cutting-e
 The goal is for students to work through the entire lifecycle of a project.
 The formal curriculum includes advanced topics in technical areas plus communication, leadership, and ethics.
 Trainees who have completed the 2-year program will be well prepared to contribute to scientific computing workforce in the DOE HEP mission.
+Participants in this DOE-sponsored program must be U.S. citizens or permanent residents.
 
 We are a strategic consortium of large public universities, national laboratories, and supercomputing centers with expertise in a wide range of computing topics.
 Science interests cover the HEP energy, cosmic, and intensity frontiers.

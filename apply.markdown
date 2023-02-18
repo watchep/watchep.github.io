@@ -15,4 +15,6 @@ Financial awards of up to $55K are intended to cover tuition, fees, and stipend 
 
 Interested graduate students from participating institutions are encouraged to complete [the application form](https://docs.google.com/forms/d/e/1FAIpQLSdvEODzRkg6gJobCbyu8_OG47HGfqw3pbPGqG3P8FmMe2z4tQ/viewform) before March 1, 2023.
 
+Please note that this DOE-sponsored program requires U.S. citizenship or permanent resident status.
+
 [jekyll-organization]: https://github.com/watchep
