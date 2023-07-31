@@ -6,7 +6,7 @@ categories: cohorts
 ---
 We are excited to announce the inaugural WATCHEP training cohort for 2023-2025. 
 A total of six students were selected in a competitive process that took into account their proposed research, community engagement, initiative, and leadership.
-Read more about this year's cohort in the ["Fellows" tab](/fellows) in the top menu.
+Read more about this year's cohort in the ["Trainees" tab](/trainees) in the top menu.
 
 * Abdelrahman Elabd (Univ. of Washington)
 * Matt Kwiecien (Univ. of California, Santa Cruz)
