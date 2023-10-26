@@ -13,8 +13,7 @@ Trainees who have completed the 2-year program will be well prepared to contribu
 
 Financial awards of up to $65K are intended to cover tuition, fees, travel, and stipend during the training program duration.
 
-**Applications are closed for Spring 2023.
-The next application cycle will open in Fall 2023.**
+**The Fall 2023 application cycle will open on October 27, 2023.**
 
 Please note that this DOE-sponsored program requires U.S. citizenship or permanent resident status.
 
