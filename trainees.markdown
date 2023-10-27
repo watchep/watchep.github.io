@@ -14,10 +14,6 @@ Matt Kwiecien is a second-year student in the Physics Department at the Universi
 Johannes Wagner is a third-year Physics Ph.D. student at the University of California, Berkeley. He is passionate about designing algorithms for high-energy collider physics. Johannes will focus on collaborative software infrastructure in heterogeneous computing and statistical data analysis. He plans to leverage compute-heavy machine learning for jet flavor tagging with the ATLAS detector, in collaboration with his university mentor Heather Gray (UCB) and lab mentor Simone Pagan Griso (LBNL). As an undergraduate, Johannes minored in computer science and data science to build a solid foundation in computing.
 
 
-### Abdelrahman Elabd
-Abdelrahman Elabd is a first-year student in the Physics Department at the University of Washington. He is interested in using advanced computational tools for experiments at particle colliders like the LHC. Abdel is focused on the area of hardware-software co-design, designing algorithms for GPU accelerators or CPU-FPGA coprocessors. These algorithms could be used for task execution schedulers or particle tracking measurements. His mentors are Shih-Chieh Hsu (UW) and Xiangyan Ju and Charles Leggett (LBNL). Abdel worked as a data scientist before starting the Ph.D. program at UW.
-
-
 ### Eric Le
 Eric Le is a first-year Ph.D. student in Physics at the University of California, Irvine. He works with the ATLAS group at UCI. Eric is focused on the area of hardware-software co-design in the integration of GPUs and FPGAs for triggers and track reconstruction. He will work with university mentor Anyes Taffard (UCI) and lab mentor Viviana Cavaliere (BNL) on optimizing algorithms and improving host-kernel data transfer for event filter tracking. Eric will also develop generic host code to load kernels across FPGAs and GPUs and maintain data transfer queues across different architectures.
 
