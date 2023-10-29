@@ -48,5 +48,8 @@ The ATLAS ITk pixel project online software requires high performance to enable 
 * **Particle flow reconstruction for current and future detectors**
 Particle flow reconstruction is one example of combining low-level measurements across detectors. Performance is important to allow all of the inputs to be combined in a reasonable amount of time. This work from project can be relevant for the ATLAS experiment or future experiments.
 Mentor: Ben Nachman (LBNL)
+* **High-throughput reconstruction/simulation with batched input**
+We typically train inference models with batches of events, but we *evaluate* on single events, one at a time. This project would explore the possibility of batch processing on the evaluation side, providing an alternative to the parallel processing event model. 
+Mentor: Ben Nachman (LBNL)
 
 [jekyll-organization]: https://github.com/watchep
