@@ -13,7 +13,7 @@ Trainees who have completed the 2-year program will be well prepared to contribu
 
 Financial awards of up to $65K are intended to cover tuition, fees, travel, and stipend during the training program duration.
 
-Interested graduate students from participating institutions are encourages to complete [the application form](https://docs.google.com/forms/d/e/1FAIpQLSccp_0XBHotvTOd6Ykd_5Ue1SeRlt73DKdgmkSthJMBLOhvjw/viewform) **before November 26, 2023**.
+Interested graduate students from participating institutions are encourages to complete [the application form](https://docs.google.com/forms/d/e/1FAIpQLSccp_0XBHotvTOd6Ykd_5Ue1SeRlt73DKdgmkSthJMBLOhvjw/viewform) **on or before November 20, 2023**.
 
 Please note that this DOE-sponsored program requires U.S. citizenship or permanent resident status.
 
