@@ -51,5 +51,9 @@ Mentor: Ben Nachman (LBNL)
 * **High-throughput reconstruction/simulation with batched input**
 We typically train inference models with batches of events, but we *evaluate* on single events, one at a time. This project would explore the possibility of batch processing on the evaluation side, providing an alternative to the parallel processing event model. 
 Mentor: Ben Nachman (LBNL)
+* **Track reconstruction as a service.**
+Track reconstruction plays a vital role in all physics programs at the Large Hadron Collider and one that is amenable to GPU porting. The project aims to set up a service for track reconstruction using NVIDIA Triton, an open-source software that organizes code deployment and execution across multiple platforms. We will use Triton to execute GPU algorithms from ACTS (a.k.a ACTS as a service), the ExaTrkX Graph Neural Network-based ML pipeline (a.k.a ExaTrkX as a service), or a hybrid. Delivering GPU cycles with the "as a service" model would enable running ATLAS reconstruction transparently on any GRID site, GPU-enabled or not. Mentors: Xiangyang Ju (LBNL) and Paolo Calafiura (LBNL)
+* **Language models for particle detectors.**
+Language models have revolutionized natural language understanding and communication. Particle detectors are complex apparatuses whose language is made of raw data organized in subdetectors and readout modules.  The project aims to train a language model that understands a detector's vocabulary and can translate its raw data to higher-level constructs like clusters, tracks, jets, etc.  Mentors: Xiangyang Ju (LBNL) and Paolo Calafiura (LBNL)
 
 [jekyll-organization]: https://github.com/watchep
