@@ -22,8 +22,8 @@ layout: default
     We expect this program will contribute to the DOE workforce in high-energy physics on the various scientific frontiers.
   </p>
   <p>
-    <img width="49%" src="assets/images/ATLAS_HLLHC_mu200_VP1_88vertices.jpg">
-    <img width="49%" src="assets/images/Star_trails_Mayall.jpg">
+    <img width="49%" src="assets/images/2023-02-15-ATLAS_HLLHC_mu200_VP1_88vertices.jpg">
+    <img width="49%" src="assets/images/2023-02-15-Star_trails_Mayall.jpg">
 
     <br />Image credits: ATLAS collaboration, P. Marenfeld and NOAO/AURA/NSF
   </p>
@@ -31,7 +31,7 @@ layout: default
   {%- if site.posts.size > 0 -%}
     <h2 class="post-list-heading">{{ page.list_title | default: "News and Posts" }}</h2>
     <ul class="post-list">
-      {%- for post in site.posts -%}
+      {%- for post in site.posts limit:5 -%}
       <li>
         {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
         <span class="post-meta">{{ post.date | date: date_format }}</span>

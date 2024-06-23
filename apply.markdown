@@ -13,7 +13,7 @@ Trainees who have completed the 2-year program will be well prepared to contribu
 
 Financial awards of up to $65K are intended to cover tuition, fees, travel, and stipend during the training program duration.
 
-Interested graduate students from participating institutions are encourages to complete [the application form](https://docs.google.com/forms/d/e/1FAIpQLSccp_0XBHotvTOd6Ykd_5Ue1SeRlt73DKdgmkSthJMBLOhvjw/viewform) **on or before January 31, 2024**.
+Applications for the third cohort of students from participating institutions will be open in Fall 2024.
 
 Please note that this DOE-sponsored program requires U.S. citizenship or permanent resident status.
 

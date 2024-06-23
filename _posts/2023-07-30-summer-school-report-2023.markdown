@@ -9,7 +9,7 @@ The inaugural cohort of WATCHEP students participated in the first computational
 WATCHEP joined forces with the TAC-HEP and C2-THE-P2 training programs to provide an intense schedule of hands-on demos, coding jam exercises, and big picture R&D talks.
 Student trainees also presented lightning talks about their research projects.
 
-| ![Participants in the 2023 Computational HEP Traineeship Summer School](/assets/images/CompHEP_TrainingSummerSchool_2023.jpg)|
+| ![Participants in the 2023 Computational HEP Traineeship Summer School](/assets/images/2023-07-31-CompHEP_TrainingSummerSchool_2023.jpg)|
 |:--:|
 | Participants in the 2023 Computational HEP Traineeship Summer School at Princeton University |
 
