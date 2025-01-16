@@ -35,6 +35,13 @@ the event. The reconstruction and classification of pions is a complicated but n
 improving GPF algorithms as well as general detector performance. A deep learning approach to pion classification substantially outperforms existing
 classification methods, indicating a strong potential for the use of these tools in GPF.<br>
 *Trainee: Alex Golub (UW). Mentor: Ben Nachman (LBNL).*
+* **Neural Architecture Codesign for Real-Time Anomaly Detection.**<br>
+Anomaly detection in the L1 trigger system uses variational autoencoders to find outlier events.
+Neural architecture codesign simultaneously considers both the performance of the neural network architecture and its hardware implementation, to ensure that the models are compatible with the hardware and latency constraints of the trigger system. The pipeline will be released as a reusable software package.<br>
+*Trainee: Jason Weitz (UCSD). Mentor: Nhan Tran (FNAL).*
+* **Improving performance of parallel processing in a digital readout platform.**<br>
+The software infrastructure for digital readout can have potential bottlenecks that impede performance for parallel pipelines. This project focuses on tuning software performance for FPGA readout, using the YARR general purpose platform.<br>
+*Trainee: Justine Partridge (UCSC). Mentor: Timon Heim (LBNL).*
 * **Simplified task execution scheduler.**<br>
   The goal of this project is to develop a simplified task execution scheduler for ATLAS using C++ asynchronous execution and benchmark its performance.<br>
 Mentors: Charles Leggett (LBNL), Xiangyang Ju (LBNL).
@@ -51,21 +58,22 @@ The key tool that enables this method is ATLAS’s EventIndex catalog, which was
 Run 2 to link stored data about recorded events at every stage of processing. The longer-term goal is to have this method approved as a standard
 ATLAS processing flow in production.<br>
 *Trainee: Luke Grossman (UCB). Mentor: Simone Pagan Griso (LBNL).*
-* **Machine Learning RooUnfold.**<br>
-Unfolding is one of the main computational tasks across HEP to measure differential cross sections. The most widely used software package for unfolding is RooUnfold. The purpose of this project is to extend RooUnfold to be compatible with modern Machine Learning (ML) libraries to be able to perform unbinned unfolding, a new paradigm that is enabled by advanced in deep learning for HEP.<br>
-    Mentor: Ben Nachman (LBNL)
-* **Machine Learning Unfolding at Scale.**<br>
-    Recent advances in deep learning have allowed for unbinned and high-dimensional unfolding for the first time.  These approaches are currently limited to relatively small dates because of computational challenges.  The goal of this project is to integrate ML-based unfolding with the Perlmutter GPU supercomputer to use model and data parallelism to push cross section measurements to the next level.<br>
-    Mentors: Ben Nachman (LBNL), Wahid Bhimji (LBNL)
+* **Detector Modeling and Event Reconstruction in Future Neutrino Detectors.**<br>
+This project will implement an end-to-end analysis chain, from data taking through critical optical calibration and detector modeling, followed by event reconstruction, and data
+analysis. The software chain will be tailored for new neutrino detectors based on water, water-based liquid scintillator (WbLS), and pure organic liquid scintillator (LS). It will optimize position reconstruction performance in water and WbLS, comparing simulated data against data from the Eos technology demonstrator.<br>
+*Trainee: Martina Hebert (UCB). Mentor: Gabriel Orebi Gann (LBNL).*
+* **Modeling Strong-Lensing Galaxy Clusters with GIGA-Lens**<br>
+Upcoming projects such as LSST are expected to uncover many thousands of strong
+lensing objects. Pixel-level modeling of cluster lenses represents a new frontier, essential to the era of big data sky surveys. This project will adapt the GIGA-Lens software for application to strong-lensing galaxy clusters, with a focus on developing interfaces and testing scalability on large-scale datasets.
+<br>
+*Trainee: Jackson O'Donnell (UCSC). Mentor: David Schlegel (LBNL).*
+
 
 ## High-Performance Software and Algorithms
 
 * **IPUs for Particle Tracking.**<br>
 GraphCore IPUs are designed to massively parallel multiple instructions, multiple data, and fine-grained, high-performance computing. The project aims to port existing tracking algorithms (traditional and/or ML-based) to IPUs and compare the computing performance with CPUs and GPUs.<br>
 Mentors: Xiangyang Ju (LBNL) and Paolo Calafiura (LBNL)
-* **High-performance data acquisition software.**<br>
-The ATLAS ITk pixel project online software requires high performance to enable gigahertz operation needed for the High-Luminosity LHC. This project would include establishing clean benchmarks, profiling the software, optimizing it, and making this level of performance maintainable during operations.<br> 
-Mentor: Timon Heim (LBNL)
 * **Particle flow reconstruction for current and future detectors.**<br>
 Particle flow reconstruction is one example of combining low-level measurements across detectors. Performance is important to allow all of the inputs to be combined in a reasonable amount of time. The work from this project can be relevant for the ATLAS experiment or future experiments.<br>
 Mentor: Ben Nachman (LBNL)
@@ -93,4 +101,12 @@ When these networks suffer from overtraining, the input datasets can be artifici
 expanded to create training samples that better reflect data.
 <br>
 *Trainee: Hadley Santana Queiroz (UCB). Mentor: Paolo Calafiura (LBNL).*
+* **Unfolding Experimental Distributions at Scale.**<br>
+Unfolding is one of the main computational tasks across HEP to measure differential cross sections. The purpose of this project is to expand the capabilities and scalability of the OmniFold algorithm by using the Perlmutter supercomputer as a platform. This will require implementation of multi-GPU support using distributed data parallelism and support for multiple frameworks.
+*Trainee: Abdelrahman Elabd (UW). Mentor: Wahid Bhimji (LBNL).*
+* **Event Filter Tracking and Track Building Optimization.**<br>
+We will see an increase in data generation rates and complexity per event with the upgraded
+HL-LHC. New tracking algorithms that require fewer computational resources will need to be developed to run at the trigger level. The most expensive stage of the pipeline is the graph segmentation which produces track candidates. This project will optimize and rewrite the connected components and walkthrough algorithms, using junction removal to improve performance.<br>
+*Trainee: Levi Condren (UCI). Mentors: Xiangyang Ju (LBNL) and Daniel Murnane (LBNL).*
+
 [jekyll-organization]: https://github.com/watchep
