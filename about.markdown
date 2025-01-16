@@ -25,4 +25,6 @@ Science interests cover the HEP energy, cosmic, and intensity frontiers.
 * Fermi National Accelerator Laboratory
 * Lawrence Berkeley National Laboratory
 
+The program PI is Jason Nielsen from the Santa Cruz Institute for Particle Physics at the University of California, Santa Cruz.
+
 [jekyll-organization]: https://github.com/watchep
