@@ -16,4 +16,4 @@ Then from that Docker container shell:
 > bash-5.1# jekyll serve --watch
 
 This will cause Jekyll to rebuild the site automatically when you change input files. 
-You can view your changes locally at [http://0.0.0.0:4000](http://0.0.0.0:4000).
+You can view your changes locally at [http://0.0.0.0:4000](http://0.0.0.0:4000) or perhaps at [http://localhost:4000](http://localhost:4000).
