@@ -11,9 +11,10 @@ The goal is for students to work through the entire lifecycle of a computational
 The formal curriculum includes advanced topics in technical areas plus communication, leadership, and ethics.
 Trainees who have completed the 2-year program will be well prepared to contribute to scientific computing workforce in the DOE HEP mission.
 
-Financial awards of up to $70K are intended to cover tuition, fees, travel, and stipend during the training program duration.
+Financial awards will cover tuition, fees, travel, and stipend during the training program duration.
 
-Applications for the third cohort of students from participating institutions are now open. Please visit [the Google forms application page](https://forms.gle/ERRGGF76ioXax4Sr9) and complete the application by November 18, 2024.
+Applications for the third cohort of students from participating institutions are now closed. 
+Please check back in June 2025 for applications in the next cohort. 
 
 Please note that this DOE-sponsored program requires U.S. citizenship or permanent resident status.
 
