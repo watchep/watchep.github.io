@@ -34,7 +34,7 @@ like ATLAS which promises an improved jet energy resolution through a comprehens
 the event. The reconstruction and classification of pions is a complicated but necessary task in
 improving GPF algorithms as well as general detector performance. A deep learning approach to pion classification substantially outperforms existing
 classification methods, indicating a strong potential for the use of these tools in GPF.<br>
-*Trainee: Alex Golub (UW). Mentor: Ben Nachman (LBNL).*
+*Trainee: Alex Golub (UW). Mentor: Ben Nachman (SLAC).*
 * **Neural Architecture Codesign for Real-Time Anomaly Detection.**<br>
 Anomaly detection in the L1 trigger system uses variational autoencoders to find outlier events.
 Neural architecture codesign simultaneously considers both the performance of the neural network architecture and its hardware implementation, to ensure that the models are compatible with the hardware and latency constraints of the trigger system. The pipeline will be released as a reusable software package.<br>
@@ -76,10 +76,10 @@ GraphCore IPUs are designed to massively parallel multiple instructions, multipl
 Mentors: Xiangyang Ju (LBNL) and Paolo Calafiura (LBNL)
 * **Particle flow reconstruction for current and future detectors.**<br>
 Particle flow reconstruction is one example of combining low-level measurements across detectors. Performance is important to allow all of the inputs to be combined in a reasonable amount of time. The work from this project can be relevant for the ATLAS experiment or future experiments.<br>
-Mentor: Ben Nachman (LBNL)
+Mentor: Ben Nachman (SLAC)
 * **High-throughput reconstruction/simulation with batched input.**<br>
 We typically train inference models with batches of events, but we *evaluate* on single events, one at a time. This project would explore the possibility of batch processing on the evaluation side, providing an alternative to the parallel processing event model.<br>
-Mentor: Ben Nachman (LBNL)
+Mentor: Ben Nachman (SLAC)
 * **Vectorized particle tracking algorithms.**<br>
 Better track finding algorithms allow for a higher quantity and quality of correctly identified displaced tracks, enabling us to investigate interesting processes, such as those involving Higgs bosons and other new particle candidates.
 This project uses Line Segment Tracking inputs for GNN studies with the CMS experiment,

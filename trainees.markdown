@@ -69,7 +69,7 @@ Miles will develop a working model for the use of ACTS-aaS and Exa.TrkX-aaS at t
 Alex Golub is a third-year Physics Ph.D. student at the University of Washington.
 They work with the ATLAS group at UW.
 Alex's interests are in machine learning and collaborative software infrastructure.
-Alex will work with university mentor Gordon Watts (UW) and lab mentor Ben Nachman (LBNL) on developing algorithms to differentiate between charged and neutral particles in the ATLAS calorimeter.
+Alex will work with university mentor Gordon Watts (UW) and lab mentor Ben Nachman (SLAC) on developing algorithms to differentiate between charged and neutral particles in the ATLAS calorimeter.
 This is part of the Global Particle Flow reconstruction software, but it can eventually be applied to other detectors, too.
 Alex has previously used recurrent neural networks to identify calorimeter signatures of long-lived particles.
 
