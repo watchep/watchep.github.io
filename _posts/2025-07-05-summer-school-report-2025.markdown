@@ -16,6 +16,7 @@ The Department of Energy Computational High-Energy Physics training programs com
 The sessions held June 23-27 introduced hands-on development exercises, high-performance computing lectures, open-source software community introductions, and career panel discussions.
 
 This training event was supported by the four Department of Energy programs [TAC-HEP](https://tac-hep.org/), [WATCHEP](https://watchep.org/),  [C2-THE-P2](https://www.niu.edu/clas/physics/academics/graduate/traineeship.shtml), and [LGT4HEP](https://lgt4hep.github.io/).
+The school was held on the West Coast for the first time, and it was organized by mentors from the Western Advanced Training for Computational High-Energy Physics (WATCHEP).
 
 {% include figure.html
     file="/assets/images/2025-07-05-SummerSchool_WorkingSession.jpg"
