@@ -74,12 +74,6 @@ lensing objects. Pixel-level modeling of cluster lenses represents a new frontie
 * **IPUs for Particle Tracking.**<br>
 GraphCore IPUs are designed to massively parallel multiple instructions, multiple data, and fine-grained, high-performance computing. The project aims to port existing tracking algorithms (traditional and/or ML-based) to IPUs and compare the computing performance with CPUs and GPUs.<br>
 Mentors: Xiangyang Ju (LBNL) and Paolo Calafiura (LBNL)
-* **Particle flow reconstruction for current and future detectors.**<br>
-Particle flow reconstruction is one example of combining low-level measurements across detectors. Performance is important to allow all of the inputs to be combined in a reasonable amount of time. The work from this project can be relevant for the ATLAS experiment or future experiments.<br>
-Mentor: Ben Nachman (SLAC)
-* **High-throughput reconstruction/simulation with batched input.**<br>
-We typically train inference models with batches of events, but we *evaluate* on single events, one at a time. This project would explore the possibility of batch processing on the evaluation side, providing an alternative to the parallel processing event model.<br>
-Mentor: Ben Nachman (SLAC)
 * **Vectorized particle tracking algorithms.**<br>
 Better track finding algorithms allow for a higher quantity and quality of correctly identified displaced tracks, enabling us to investigate interesting processes, such as those involving Higgs bosons and other new particle candidates.
 This project uses Line Segment Tracking inputs for GNN studies with the CMS experiment,
@@ -108,5 +102,37 @@ Unfolding is one of the main computational tasks across HEP to measure different
 We will see an increase in data generation rates and complexity per event with the upgraded
 HL-LHC. New tracking algorithms that require fewer computational resources will need to be developed to run at the trigger level. The most expensive stage of the pipeline is the graph segmentation which produces track candidates. This project will optimize and rewrite the connected components and walkthrough algorithms, using junction removal to improve performance.<br>
 *Trainee: Levi Condren (UCI). Mentors: Xiangyang Ju (LBNL) and Daniel Murnane (LBNL).*
+
+## Artificial Intelligence and Machine Learning
+
+* **High-throughput inference with batched input.**<br>
+We typically train inference models with batches of events, but we evaluate on single events, one at a time.
+This project would explore the possibility of batch processing on the evaluation side, providing an alternative to the parallel processing event model.
+<br>
+* **Generative machine learning for particle physics.**<br>
+Generative machine learning has been proposed as a means of fast simulation, as it efficiently maps detector responses to particle observables.
+The potential of this method has not been fully explored in a range of observables or experimental setups.
+This project would investigate the potential for generative machine learning and map the computational resources needed for various levels of experimental precision.
+<br>
+* **Simulation-based inference applications.**<br>
+Simulation-based inference is a powerful new approach for estimating particle properties directly from high-dimensional measurement space.
+This project will investigate neural simulation-based inference frameworks suitable for experimental data.
+<br>
+* **Machine-learned particle-flow reconstruction.**<br>
+Particle-flow (PF) reconstruction algorithms combine information from the trackers and calorimeters to reconstruct individual particles in a collision events and improve the global description of the event, especially in terms of the resolution of jets and the missing transverse momentum.
+Current PF reconstruction algorithms are generally based on rule-based approaches.
+However, machine learning (ML) algorithms have been demonstrated to improve performance in simulation samples, are easily adapted to new detector concepts and detector geome-
+tries, and can be deployed on highly parallel computing architectures such as graphics
+processing units (GPUs).
+<br>
+* **Anomaly detection in the level-1 trigger.**<br>
+Trigger algorithms are typically based on expected signatures of standard model and new physics processes, and require the presence of leptons, jets, and/or transverse missing momentum.
+However, many new physics signatures may not be selected by existing L1 trigger algorithms, prompting the use of generic anomaly detection algorithms.
+This project aims to develop, deploy, and test various anomaly detection algorithms, such as those based on autoencoders, on FPGAs for use in current and future L1 trigger systems at the LHC.
+<br>
+* **An artificially intelligent-aware Kalman Filter.**<br>
+The KF has been an extraordinarily successful approach to particle tracking. Artificial intelligence can be used to improve the mathematical model of a material system or optimize the parameter estimation of the KF.
+This project uses the HL-LHC detectors as a testbed to investigate AI-enhanced methods of estimating KF error parameters and updating KF state vectors for particles interacting with tracking detector material.
+<br>
 
 [jekyll-organization]: https://github.com/watchep
