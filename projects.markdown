@@ -134,5 +134,9 @@ This project aims to develop, deploy, and test various anomaly detection algorit
 The KF has been an extraordinarily successful approach to particle tracking. Artificial intelligence can be used to improve the mathematical model of a material system or optimize the parameter estimation of the KF.
 This project uses the HL-LHC detectors as a testbed to investigate AI-enhanced methods of estimating KF error parameters and updating KF state vectors for particles interacting with tracking detector material.
 <br>
+* **On-chip machine learning algorithms to produce intelligent networks**<br>
+This project will use on-chip machine learning algorithms to produce intelligent networks. Both conventional digital logic and spike-based neuromorphic implementations will be explored. Two network scales will be prototyped: a multi-chip network, where each element is a complex functionality sensor and many sensors are integrated on a circuit board to form the network (suitable for DUNE or other detectors of similar scale), and a network-on-chip, where the individual pixels of a sensor are the network elements (suitable for collider pixel detectors). 
+<br>
+*Mentors: Timon Heim (LBNL) and Maurice Garcia-Sciveres (LBNL).*
 
 [jekyll-organization]: https://github.com/watchep
