@@ -5,6 +5,11 @@ date:   2025-10-02
 categories: funding general
 ---
 
+{% include figure.html
+    file="/assets/logos/watchep_blue_logo_long.png"
+    alt="WATCHEP logo"
+    class="center"
+%}
 We are pleased to announce that the selection process for the 2026-2027 WATCHEP training cohort has started.
 The 18-month training program is intended to provide opportunities for students in computational high-energy physics from a [group of six Western universities](\about).
 Please visit the ["Apply" tab](/apply) in the top menu for information and access to the application form.
