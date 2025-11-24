@@ -4,7 +4,7 @@ title: Archive
 permalink: /archive/
 ---
 
-This is the archive of all posts on this site.
+This is the archive of all posts on this site.<br>
 
 
   {%- if site.posts.size > 0 -%}
@@ -16,6 +16,6 @@ This is the archive of all posts on this site.
           </a>
         {%- if site.show_excerpts -%}
           {{ post.excerpt }}
-        {%- endif -%}
+	  {%- endif -%}
       {%- endfor -%}
   {%- endif -%}

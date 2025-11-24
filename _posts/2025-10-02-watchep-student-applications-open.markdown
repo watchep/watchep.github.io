@@ -20,7 +20,7 @@ Selected student trainees will join a cohort in a dedicated online curriculum an
 They will then work with a university and laboratory mentor on a project in computational high-energy physics.
 Financial awards of up to $70K are intended to cover tuition, fees, and stipend during the training program duration.
 
-With supplemental funding from the Deparment of Energy Office of High-Energy Physics, we have been able to add a fourth focus area for this cohort:
+With supplemental funding from the Department of Energy Office of High-Energy Physics, we have been able to add a fourth focus area for this cohort:
 * Hardware-Software Co-Design
 * Collaborative Software Infrastructure
 * High-Performance Software and Algorithms

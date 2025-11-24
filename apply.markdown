@@ -13,9 +13,6 @@ Trainees who have completed the 2-year program will be well prepared to contribu
 
 Financial awards will cover tuition, fees, travel, and stipend during the training program duration.
 
-Applications for the fourth cohort of students from participating institutions are now open. 
-Please visit [the Google forms application page](https://forms.gle/VsK7S4s4NdGEzf3WA) and complete the application by October 31, 2025.
-
-Please note that this DOE-sponsored program requires U.S. citizenship or permanent resident status.
+Applications for the fourth cohort of students from participating institutions are closed. 
 
 [jekyll-organization]: https://github.com/watchep
