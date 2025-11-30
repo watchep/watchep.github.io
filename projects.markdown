@@ -66,7 +66,27 @@ analysis. The software chain will be tailored for new neutrino detectors based o
 Upcoming projects such as LSST are expected to uncover many thousands of strong
 lensing objects. Pixel-level modeling of cluster lenses represents a new frontier, essential to the era of big data sky surveys. This project will adapt the GIGA-Lens software for application to strong-lensing galaxy clusters, with a focus on developing interfaces and testing scalability on large-scale datasets.
 <br>
-*Trainee: Jackson O'Donnell (UCSC). Mentor: David Schlegel (LBNL).*
+*Trainee: Jackson O'Donnell (UCSC). Mentor: David Schlegel (LBNL).*<br>
+* **Optimal transport-based toolkit for classifier calibration**<br>
+Flavor-tagging algorithms take as input tracks clustered into a jet of interest and output a score, using a model trained using hundreds of millions of simulated jets.
+Simulation can be mapped to data using optimal transport to preserve correlations and provide in situ calibrations over a larger phase space.
+The project will implement calibration techniques employing optimal transport, which shows particular promise in improving classifier calibration.
+<br>
+*Trainee: Liam Foster (UCB). Mentor: Xiangyang Ju (LBNL).*<br>
+* **Compatible pipelines for columnar data analysis**<br>
+An optimization strategy to boost the performance and speed of analysis workflows is to take advantage of columnar data structures as opposed to the current row-wise (per-event) approach.
+The columnar approach takes the conventional EventLoop paradigm (comprising
+several physics objects' kinematic properties) and transforms it into a per-array basis, such that data are grouped by properties rather than by event.
+This project aims to develop a columnar analysis infrastructure for the ATLAS
+Athena framework in a way that minimizes the changes to the user interface.
+<br>
+*Trainee: Yoshinobu Fujikake (UCSC). Mentor: Nick Smith (FNAL).*<br>
+* **Reconstruction algorithms for hybrid neutrino detectors**<br>
+"Hybrid" neutrino detectors leverage both Cherenkov and scintillation light.
+This project will develop and compare the performance of different reconstruction algorithms for external backgrounds in these detectors.
+Impacts and conclusions from this project will be directly incorporated into the RATPAC2 software framework, providing a community tool that can be used in a broad range of projects.
+<br>
+*Trainee: Srikar Gadamsetty (UCB). Mentor: Gabriel Orebi-Gann (LBNL).*<br>
 
 
 ## High-Performance Software and Algorithms
@@ -101,10 +121,32 @@ Unfolding is one of the main computational tasks across HEP to measure different
 * **Event Filter Tracking and Track Building Optimization.**<br>
 We will see an increase in data generation rates and complexity per event with the upgraded
 HL-LHC. New tracking algorithms that require fewer computational resources will need to be developed to run at the trigger level. The most expensive stage of the pipeline is the graph segmentation which produces track candidates. This project will optimize and rewrite the connected components and walkthrough algorithms, using junction removal to improve performance.<br>
-*Trainee: Levi Condren (UCI). Mentors: Xiangyang Ju (LBNL) and Daniel Murnane (LBNL).*
+*Trainee: Levi Condren (UCI). Mentors: Xiangyang Ju (LBNL) and Daniel Murnane (LBNL).*<br>
+* **Development of modern workflow-management tools and scalable HPC infrastructure.**<br>
+This project aims to design and implement an optimized, high-performance workflow for photon identification with the ATLAS experiment. The overarching goal is to streamline the end-to-end development cycle — encompassing dataset retrieval, preprocessing, model training, and inference benchmarking — on Perlmutter, NERSC’s flagship supercomputer.<br>
+*Trainee: Jose Esparza (UCB). Mentor: Xiangyang Ju (LBNL).*<br>
+* **Improved high-throughput computing benchmark monitoring.**<br>
+High-throughput computing (HTC) is essential to produce any LHC physics analysis.
+This project will use Brookhaven's ATLAS Computing Analysis facility as a testbed for improving benchmarking capabilities.
+There will be an adaptation of an underlying framework utilizing GitHub Actions deployed on compute nodes using Kubernetes, which will automate testing and
+deploying of updated software.<br>
+*Trainee: Qi Bin Lei (UCSC). Mentor: Ofer Rind (BNL).*<br>
+* **Multi-tiered Anomaly Detection in the Trigger and Offline Analysis in CMS.**<br>
+This project will build a software framework for training and evaluating decorrelated anomaly detection models across CMS data levels, including the L1 trigger, HLT, and offline reconstruction.
+The framework will include standardized data preprocessing, configurable neural network architectures, performance monitoring, and tools for data-driven threshold setting.<br>
+*Trainee: Ellison Schueller (UCSD). Mentor: Jennifer Ngadiuba (FNAL).*<br>
 
 ## Artificial Intelligence and Machine Learning
 
+* **Agentic AI Workflows for High Energy Physics.**<br>
+This project will create autonomous AI systems that can learn, reason, and
+self-improve as they execute complex HEP analysis tasks and parse scientific documentation.
+Developing competent agents capable of automating and reasoning about complex analyses requires dedicated fine-tuning and reinforcement learning.<br>
+*Trainee: Joshua Ho (UCB). Mentor: Paolo Calafiura (LBNL).*<br>
+* **Anomaly Detection with Embedded Constraints.**<br>
+This project will use a pair of neural network ensembles to identify anomalies that may be new physics.
+The neural network - field theory (NN-FT) correspondence provides a path for building such a system by using the well-established tools of quantum field theory (QFT) to guide the training of NNs in a physics-informed way.<br>
+*Trainee: Jake Rudolph (UCI). Mentor: Ben Nachman (SLAC).*<br>
 * **High-throughput inference with batched input.**<br>
 We typically train inference models with batches of events, but we evaluate on single events, one at a time.
 This project would explore the possibility of batch processing on the evaluation side, providing an alternative to the parallel processing event model.
