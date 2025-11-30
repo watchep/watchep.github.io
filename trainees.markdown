@@ -144,3 +144,65 @@ Jason Weitz is in the first year of the Physics Ph.D. program at the University 
 He is focused on the area of hardware-software co-design, tailoring algorithms for limited architectures like FPGAs.
 Jason works with university mentor Javier Duarte (UCSD) and lab mentor Nhan Tran (FNAL).
 Neural architecture codesign simultaneously considers both the performance of the neural network architecture and its hardware implementation in the CMS L1 trigger system, to ensure that the models are compatible with the hardware and latency constraints.
+
+## 2026-2027 Cohort
+
+### Jose Esparza
+
+Jose Esparza is a second-year Ph.D. student in the Department of Physics at the University of California, Berkeley.
+He is focused on the area of high-performance computing, specifically on the development of modern workflow-management tools and scalable HPC infrastructure.
+Jose works with university mentor Haichen Wang (UCB) and lab mentor Xiangyang Ju (LBNL).
+His research application is photon identification algorithms in the context of precision measurements and searches with the ATLAS experiment.
+
+### Liam Foster
+
+Liam Foster is in the fourth year of the Physics Ph.D. program at the University of California, Berkeley.
+He is working on the development of collaborative software infrastructure with university mentor Heather Gray (UCB) and lab mentor Xiangyang Ju (LBNL).
+Liam will be developing an optimal transport-based toolkit for classifier calibration that can be distributed and applied widely within high-energy physics.
+This toolkit will enable classifier calibrations that will improve a broad range of physics results.
+
+### Yoshinobu Fujikake
+
+Yoshinobu Fujikake is a third-year Physics Ph.D. at the University of California, Santa Cruz.
+His focus is in the area of collaborative software infrastructure, specifically in analysis pipelines.
+Yoshinobu works with university mentor Jason Nielsen (UCSC) and lab mentor Nick Smith (FNAL).
+He will be developing a columnar analysis infrastructure for the ATLAS Athena framework in a way that minimizes changes to existing user interfaces.
+This work will also be broadly applicable to the underlying Gaudi framework.
+
+### Srikar Gadamsetty
+
+Srikar Gadamsetty is in the second year of the Physics Ph.D. program at the University of California, Berkeley.
+He also works in the area of collaborative software infrastructure with university mentor Marjorie Shapiro (UCB) and lab mentor Gabriel Orebi-Gann (LBNL).
+Srikar will develop and implement reconstruction algorithms for hybrid neutrino detectors, leading to a full analysis workflow to calibrate external backgrounds.
+This work is based on the RATPAC2 software framework.
+
+### Joshua Ho
+
+Joshua Ho is a first-year Physics Ph.D. student at the University of California, Berkeley.
+He is one of the first WATCHEP trainees with special focus on the area of Artificial Intelligence and Machine Learning, specifically on agentic workflows for data analysis tasks and model adaptation of large models in high-energy physics applications.
+This approach will automate repetitive tasks, thereby freeing researchers to focus on creative analysis strategies.
+Joshua works with university mentor Haichen Wang (UCB) and lab mentor Paolo Calafiura (LBNL).
+
+### Qi Bin Lei
+
+Qi Bin Lei is in the first year of the Physics Ph.D. program at the University of California, Santa Cruz.
+His interests lie in the area of high-performance computing.
+Qi Bin will focus his efforts on improving the generalized workflows used for benchmarking high-performance and high-throughput computing in large DOE scientific computing facilities.
+This work will be conducted with university mentor Mike Hance (UCSC) and lab mentor Ofer Rind (BNL).
+Qi Bin is passionate about giving back to the open-source scientific software ecosystem and improving user experiences with HPC and HTC systems.
+
+### Jake Rudolph
+
+Jake Rudolph is a third-year Physics Ph.D. student at the University of California, Irvine.
+He is one of the first WATCHEP trainees with special focus on the area of Artificial Intelligence and Machine Learning.
+Jake works with university mentor Daniel Whiteson (UCI) and lab mentor Ben Nachman (SLAC).
+He uses neural networks to do anomaly detection in searches for new physics.
+He is investigating the neural network - field theory (NN-FT) correspondence to train NNs in a physics-informed way.
+
+### Ellison Scheuller
+
+Ellison Scheuller is in the second year of the Physics Ph.D. program at the University of California, San Diego.
+Her research project is in the area of high-performance computing.
+Ellison is pursuing a multi-tier trigger design by developing a reusable software framework that enables anomaly detection models.
+This framework is constructed to handle the high data throughput in the CMS L1 scouting data stream.
+Ellison works with university mentor Javier Duarte (UCSD) and lab mentor Jennifer Ngadiuba (FNAL).
