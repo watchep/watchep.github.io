@@ -44,7 +44,7 @@ His interests are in hardware-software co-design, specifically the implementatio
 Russell will collaborate with university mentor Javier Duarte (UCSD) and lab mentor Nhan Tran (Fermilab) to enhance the hls4ml tool for new FPGA firmware, making it possible to apply machine learning principles in FPGAs for the CMS experiment.
 He will also investigate pruning and supporting sparse ML models in hls4ml.
 
-## 2024-2026 Cohort
+## 2024-2025 Cohort
 
 ### Jade Chismar
 
@@ -98,7 +98,7 @@ Hadley will collaborate with university mentor Heather Gray (UCB) and lab mentor
 The data augmentation methods are implemented in the common GNN training framework so that they are available to all collaborators.
 Hadley is also involved in calibrating the algorithm performance for flavor tagging.
 
-## 2025-2027 Cohort
+## 2025-2026 Cohort
 
 ### Levi Condren
 
