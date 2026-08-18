@@ -33,7 +33,7 @@ The following modules are presented in the suggested order of completion.
 <li><a href="https://hsf-training.github.io/hsf-training-cmake-webpage/">Build systems and cmake</a></li>
 <li><a href="https://hsf-training.github.io/hsf-training-cicd/">Continuous integration and Continuous deployment (CI/CD) with Gitlab</a></li>
 <li><a href="http://carpentries-incubator.github.io/python-testing/">Unit testing in python</a></li>
-<li><a href="https://henryiii.github.io/level-up-your-python/notebooks/0%20Intro.html">Level up your python (testing, debugging, logging, and more)</a></li>
+<li><a href="https://henryiii.github.io/level-up-your-python/">Level up your python (testing, debugging, logging, and more)</a></li>
 </ul>
 
 <h3>Distributed computing systems</h3>
@@ -41,7 +41,7 @@ The following modules are presented in the suggested order of completion.
 <li>Storage systems</li>
 <li>Batch systems</li>
 <li>Distributed computing</li>
-<li>Containers: <a href="https://hsf-training.github.io/hsf-training-docker/index.html">Docker</a> and <a href="https://hsf-training.github.io/hsf-training-singularity-webpage/">Singularity</a></li>
+<li>Containers: <a href="https://hsf-training.github.io/hsf-training-docker/index.html">Docker and Podman</a> and <a href="https://hsf-training.github.io/hsf-training-singularity-webpage/">Apptainer/Singularity</a></li>
 </ul>
 
 <h3>Computational physics techniques</h3>
