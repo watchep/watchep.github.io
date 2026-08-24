@@ -21,6 +21,13 @@ The school was hosted by the BNL Physics Department, and it featured lecturers f
 
 The trainees learned about better coding in Python and C++, and they followed hands-on exercises in debugging and CI/CD. They also experimented with containerization using Apptainer, and they attended introductory lectures on the mathematical foundations of deep learning. One highlight was the exposure to the OpenCode instance at BNL running powerful open-source models for code development and testing.
 
+{% include figure.html
+    file="/assets/images/2026-08-24-CompHEP-School-Class.jpg"
+    alt="Computational HEP 2026 summer school class session"
+    caption="Summer school participants in hands-on learning session at Brookhaven National Laboratory. Photo credit: Henry Schreiner, Princeton University."
+    class="center"
+%}
+
 A career panel composed of university faculty, research software engineers, DOE group leaders, and DOE laboratory researchers introduced students to the breadth of opportunities for computational high-energy physicists in academia and the DOE.
 
 The summer school program concluded with special tours of the Scientific Computing and Data Center facility at BNL and a walking tour of the laboratory.
